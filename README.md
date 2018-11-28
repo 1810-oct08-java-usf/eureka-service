@@ -1,2 +1,2 @@
-# plop-eureka
-Eureka (service registry) for the MSE supporting PLOP
+# eureka-service
+Eureka (service registry) for the MSE supporting P3
