@@ -28,6 +28,7 @@ hs_err_pid*
 .metadata 
 bin/ 
 tmp/ 
+target/
 *.tmp 
 *.bak 
 *.swp 
@@ -98,3 +99,6 @@ hibernate.cfg.xml
 # config files (bootstrap.yml will stay on repo, but no need to update it)
 bootstrap.yml
 application.yml
+
+# vscode
+.vscode
