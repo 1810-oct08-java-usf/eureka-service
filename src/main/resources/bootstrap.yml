@@ -1,6 +1,15 @@
 spring:
+  profiles:
+    active:
+    - local
   application:
     name: eureka-service
   cloud:
     config:
-      uri: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-config/
+      uri: ${CONFIG_SERVICE_URL}
+
+---
+#Configuration settings that used when the local profile is active
+spring:
+  profiles: local
+  cloud:    config:      uri:      - http://localhost:8888
