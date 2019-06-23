@@ -1,15 +1,8 @@
 spring:
   profiles:
-    active:
-    - local
+    active: local
   application:
     name: eureka-service
   cloud:
     config:
-      uri: ${CONFIG_SERVICE_URL}
-
----
-#Configuration settings that used when the local profile is active
-spring:
-  profiles: local
-  cloud:    config:      uri:      - http://localhost:8888
+      uri: http://localhost:8888
