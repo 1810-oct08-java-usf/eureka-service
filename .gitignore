@@ -1,3 +1,13 @@
+# repos
+project-service
+auth-service
+eureka-service
+config-service
+zuul-service
+configuration-repo
+
+/.metadata/
+
 # Compiled class file
 *.class 
 
@@ -28,7 +38,6 @@ hs_err_pid*
 .metadata 
 bin/ 
 tmp/ 
-target/
 *.tmp 
 *.bak 
 *.swp 
@@ -96,9 +105,5 @@ hibernate.cfg.xml
 # sonarlint modules
 .sonarlint
 
-# config files (bootstrap.yml will stay on repo, but no need to update it)
-bootstrap.yml
-application.yml
-
-# vscode
-.vscode
+# hook-deps
+.hook-deps/
