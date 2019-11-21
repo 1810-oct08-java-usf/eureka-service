@@ -1,3 +1,12 @@
+# repos
+project-service
+auth-service
+eureka-service
+config-service
+zuul-service
+
+/.metadata/
+
 # Compiled class file
 *.class 
 
@@ -28,7 +37,6 @@ hs_err_pid*
 .metadata 
 bin/ 
 tmp/ 
-target/
 *.tmp 
 *.bak 
 *.swp 
@@ -100,5 +108,10 @@ hibernate.cfg.xml
 bootstrap.yml
 application.yml
 
-# vscode
-.vscode
+# Target Directory
+target/
+
+.vscode/
+
+# hook-deps
+.hook-deps/
